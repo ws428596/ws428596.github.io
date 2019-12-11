@@ -5,23 +5,64 @@
     <description>欢迎来到我的个人站~</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 11 Dec 2019 19:52:38 +0800</pubDate>
-    <lastBuildDate>Wed, 11 Dec 2019 19:52:38 +0800</lastBuildDate>
+    <pubDate>Wed, 11 Dec 2019 20:35:14 +0800</pubDate>
+    <lastBuildDate>Wed, 11 Dec 2019 20:35:14 +0800</lastBuildDate>
     <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>项目</title>
         <description>&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
+
 &lt;head&gt;
     &lt;meta charset=&quot;UTF-8&quot;&gt;
     &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
     &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;ie=edge&quot;&gt;
     &lt;title&gt;Document&lt;/title&gt;
 &lt;/head&gt;
+
 &lt;body&gt;
-    
+    &lt;div class=&quot;content&quot;&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;农场项目&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/farming/index.html&quot;&gt;Farm&lt;/a&gt;&lt;/li&gt;
+
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;飞机游戏项目&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/plane/index.html&quot;&gt;Plane Game&lt;/a&gt;
+            &lt;/li&gt;
+
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;西餐厅模板&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/dinner/dinner.html&quot;&gt;Western
+                    food&lt;/a&gt;
+            &lt;/li&gt;
+
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;西式糕点模板&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/pastry/index.html&quot;&gt;Foreign
+                    Pastry&lt;/a&gt;
+            &lt;/li&gt;
+
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;Css3动画&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/CSS3/index.html&quot;&gt;3Danimation&lt;/a&gt;
+            &lt;/li&gt;
+
+        &lt;/ul&gt;
+        &lt;ul&gt;
+            &lt;h3&gt;响应式排版&lt;/h3&gt;
+            &lt;li style=&quot;margin-left: 40px;&quot;&gt;&lt;a href=&quot;https://ws428596.github.io/project/bot/indexs.html&quot;&gt;Reacitv&lt;/a&gt;
+            &lt;/li&gt;
+
+        &lt;/ul&gt;
+    &lt;/div&gt;
 &lt;/body&gt;
+
 &lt;/html&gt;</description>
         <pubDate>Wed, 11 Dec 2019 00:00:00 +0800</pubDate>
         <link>http://localhost:4000/2019/12/11/thd.html</link>

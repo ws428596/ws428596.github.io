@@ -1,0 +1,43 @@
+section.works {
+  background: lightgray;
+}
+section.works h3 {
+  width: 1140px;
+  margin: 0 auto;
+}
+section.works ul.grid {
+  width: 1140px;
+  margin: 0 auto;
+}
+section.works ul.grid::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+section.works ul.grid li {
+  width: 25%;
+  float: left;
+  background: red;
+  position: relative;
+}
+section.works ul.grid li img {
+  width: 100%;
+  display: block;
+}
+section.works ul.grid li::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url('magnify.png') no-repeat center rgba(0, 0, 0, 0.3);
+  transform: scale(0);
+  transition: all 0.3s;
+  box-shadow: 0 0 10px 0 white;
+}
+section.works ul.grid li:hover:after {
+  transform: scale(1);
+  z-index: 9;
+}
+/*# sourceMappingURL=./works.css.map */
