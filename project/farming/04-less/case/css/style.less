@@ -1,0 +1,126 @@
+header {
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: top center;
+	.nav {
+		width: 1140px;
+		background: rgba(0, 0, 0, 0.5);
+		overflow: hidden;
+		margin: 0 auto;
+		line-height: 60px;
+		color: white;
+
+		ul.menu {
+			float: left;
+			li {
+				float: left;
+				margin: 0 15px;
+				a {
+					color: white;
+					text-decoration: none;
+                    transition: all 0.3s;
+                    text-transform: capitalize;
+					&:hover {
+						border-top: 4px solid yellow;
+						color: yellow;
+					}
+				}
+				&:first-child {
+					a {
+						border-top: 4px solid yellow;
+						color: yellow;
+					}
+				}
+				&:after {
+					content: "/";
+					margin-left: 15px;
+				}
+				&:last-child {
+					&:after {
+						content: none;
+					}
+				}
+			}
+		}
+		form.search {
+			float: right;
+			position: relative;
+			top: 0;
+			left: 0;
+			margin-right: 15px;
+			input {
+				&:first-child {
+					padding: 8px 10px;
+					color: white;
+					outline: none;
+					background: transparent;
+					border: 1px solid white;
+				}
+				&:last-child {
+					width: 22px;
+					height: 22px;
+					background: url("../images/search.png") no-repeat;
+					background-position: center;
+					border: none;
+					outline: none;
+					text-indent: -10em;
+					// 文本缩进
+
+					position: absolute;
+					top: 20px;
+					right: 8px;
+					// cursor: url('../images/icon4.png'), pointer;
+					cursor: pointer;
+				}
+			}
+		}
+    }
+    .banner {
+        h1 {
+            width: 200px;
+            margin: 180px auto;
+            font-size: 48px;
+            color: white;
+            line-height: 1.5em;
+            border-top: 3px solid white;
+            border-bottom: 3px solid white;
+        }
+    }
+    ul.grid {
+        width: 1140px;
+        margin: 0 auto;
+        overflow: hidden;
+        position: relative;
+        top: 120px;
+        left: 0;
+        li {
+            width: 25%;
+            float: left;
+            text-align: center;
+            .card {
+                background: #16A667;
+                margin: 0 15px;
+                padding: 30px 15px;
+                color: white;
+                img {
+                    border-radius: 50%;
+                    border: 5px solid white;
+                    padding: 10px;
+                    &:hover {
+                        transition: all 0.5s;
+                        transform: rotateY(360deg);
+                    }
+                }
+                h3 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    line-height: 2em;
+                }
+                p {
+                    font-size: 14px;
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.wrap() {
+	width: 1140px;
+	margin: 0 auto;
+}
+// 带上括号 生成的css 没有这个样式
+.clear() {
+    content: '';
+    display: block;
+    clear: both;
+    // 清除浮动 用来结束一个盒子里面的浮动 代替overflow:hidden（有副作用）
+}
+section.works {
+	background: lightgray;
+	h3 {
+		.wrap;
+		// 混入
+	}
+	ul.grid {
+		.wrap;
+        // overflow: hidden;
+        &::after {
+            .clear;
+        }
+
+		li {
+			width: 25%;
+            float: left;
+            background: red;
+            position: relative;
+
+            
+			img {
+                width: 100%;
+                display: block;
+                // 默认图片下方会有白线 原因是文字基线
+                // 1转化为块级 2设置基线
+            }
+            &::after {
+                content: '';
+                // display: block;
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: url('./magnify.png') no-repeat center rgba(0, 0, 0, 0.3);
+                transform: scale(0);
+                transition: all 0.3s;
+                box-shadow: 0 0 10px 0 white;
+            }
+            &:hover {
+                &:after {
+                    transform: scale(1);
+                    z-index: 9;
+                }
+            }
+		}
+	}
+}

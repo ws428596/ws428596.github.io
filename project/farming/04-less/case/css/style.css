@@ -1,0 +1,115 @@
+header {
+  background: url('../images/banner.jpg') no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+header .nav {
+  width: 1140px;
+  background: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  margin: 0 auto;
+  line-height: 60px;
+  color: white;
+}
+header .nav ul.menu {
+  float: left;
+}
+header .nav ul.menu li {
+  float: left;
+  margin: 0 15px;
+}
+header .nav ul.menu li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s;
+  text-transform: capitalize;
+}
+header .nav ul.menu li a:hover {
+  border-top: 4px solid yellow;
+  color: yellow;
+}
+header .nav ul.menu li:first-child a {
+  border-top: 4px solid yellow;
+  color: yellow;
+}
+header .nav ul.menu li:after {
+  content: "/";
+  margin-left: 15px;
+}
+header .nav ul.menu li:last-child:after {
+  content: none;
+}
+header .nav form.search {
+  float: right;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-right: 15px;
+}
+header .nav form.search input:first-child {
+  padding: 8px 10px;
+  color: white;
+  outline: none;
+  background: transparent;
+  border: 1px solid white;
+}
+header .nav form.search input:last-child {
+  width: 22px;
+  height: 22px;
+  background: url("../images/search.png") no-repeat;
+  background-position: center;
+  border: none;
+  outline: none;
+  text-indent: -10em;
+  position: absolute;
+  top: 20px;
+  right: 8px;
+  cursor: pointer;
+}
+header .banner h1 {
+  width: 200px;
+  margin: 180px auto;
+  font-size: 48px;
+  color: white;
+  line-height: 1.5em;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+}
+header ul.grid {
+  width: 1140px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  top: 120px;
+  left: 0;
+}
+header ul.grid li {
+  width: 25%;
+  float: left;
+  text-align: center;
+}
+header ul.grid li .card {
+  background: #16A667;
+  margin: 0 15px;
+  padding: 30px 15px;
+  color: white;
+}
+header ul.grid li .card img {
+  border-radius: 50%;
+  border: 5px solid white;
+  padding: 10px;
+}
+header ul.grid li .card img:hover {
+  transition: all 0.5s;
+  transform: rotateY(360deg);
+}
+header ul.grid li .card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 2em;
+}
+header ul.grid li .card p {
+  font-size: 14px;
+  line-height: 1.5em;
+}
+/*# sourceMappingURL=./style.css.map */

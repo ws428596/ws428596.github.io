@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="http://fonts.googleapis.com/css?family=Srisakdi:400,700&amp;subset=latin-ext,thai,vietnamese"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Libre+Baskerville:400italic"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/dinner.css" />
+  </head>
+
+  <body>
+    <div class="container header">
+      <div class="row">
+        <nav class="navbar navbar-default header">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button
+                type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse"
+              >
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#"
+                ><img src="img/logo.png" width="30"
+              /></a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse">
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#h" class="smoothscroll">Home</a></li>
+                <li><a href="#chefs" class="smoothscroll">Chefs</a></li>
+                <li><a href="#dishes" class="smoothscroll">Dishes</a></li>
+                <li><a href="#contact" class="smoothscroll">Contact</a></li>
+              </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+          </div>
+          <!-- /.container-fluid -->
+        </nav>
+      </div>
+    </div>
+    <div class="cot">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-md-offset-3 active">
+            <h1>A LANDING PAGE<br />FOR YOUR RESTAURANT</h1>
+            <hr class="aligncenter" />
+            <p>
+              Enjoy the experience of our restaurant.<br />Register to know our
+              latest news.
+            </p>
+            <div class="col-md-10 col-md-offset-1 centered mt">
+              <form
+                role="form"
+                action="register.php"
+                method="post"
+                enctype="plain"
+              >
+                <input
+                  type="email"
+                  name="email"
+                  class="subscribe-input"
+                  placeholder="Enter your e-mail address..."
+                  required
+                />
+                <button
+                  class="btn btn-lg btn-orange subscribe-submit"
+                  type="submit"
+                >
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="center">
+      <div class="container">
+        <div class="row active">
+          <h3>HANDSOME LANDING. AWESOME EXPERIENCES.</h3>
+          <hr class="aligncenter" />
+          <div class="col-md-3">
+            <i class="wine">
+              <ion-icon name="ios-wine"></ion-icon>
+            </i>
+            <h5>TRULY TASTEFUL</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <i class="location">
+              <ion-icon name="pin"></ion-icon>
+            </i>
+            <h5>8 CITIES</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <i class="price">
+              <ion-icon name="calculator"></ion-icon>
+            </i>
+            <h5>AFFORDABLE PRICES</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+          <div class="col-md-3">
+            <i class="deliver">
+              <ion-icon name="cart"></ion-icon>
+            </i>
+            <h5>WE DELIVER</h5>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sep one" style="background-position: 50% 0;"></div>
+
+    <div class="chefc" id="chefs">
+      <div class="container">
+        <div class="row">
+          <h3 class="centered">MEET OUR AWESOME CHEFS</h3>
+          <hr class="aligncenter mt" />
+          <div class="col-md-2 col-sm-2">
+            <div class="tabbable">
+              <ul class="nav nav-stacked" id="myTab">
+                <li class=""><a>David Harrison</a></li>
+                <li class=""><a>Patrick Dawson</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-10 col-sm-10">
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab1">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h4><b>David Harrison</b></h4>
+                    <h6>TOP CHEF</h6>
+                    <p class="rating">
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                    </p>
+                    <br />
+                    <p>
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                    <p>
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged.
+                    </p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img
+                      class="img-responsive aligncenter"
+                      src="./img/chef01.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="tab2">
+                <div class="row">
+                  <div class="col-md-8 col-sm-8">
+                    <h4><b>Patrick Dawson</b></h4>
+                    <h6>MASTER CHEF</h6>
+                    <p class="rating">
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star"></i>
+                      <i class="ion-ios7-star-half"></i>
+                    </p>
+                    <br />
+                    <p>
+                      Lorem Ipsum has been the industry's standard dummy text
+                      ever since the 1500s, when an unknown printer took a
+                      galley of type and scrambled it to make a type specimen
+                      book.
+                    </p>
+                    <p>
+                      It has survived not only five centuries, but also the leap
+                      into electronic typesetting, remaining essentially
+                      unchanged.
+                    </p>
+                    <p>
+                      Lorem Ipsum is simply dummy text of the printing and
+                      typesetting industry.
+                    </p>
+                  </div>
+                  <div class="col-md-4 col-sm-4">
+                    <img
+                      class="img-responsive aligncenter"
+                      src="img/chef02.png"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sep two"></div>
+
+    <div class="menu" id="dishes">
+      <div class="container">
+        <div class="row">
+          <h3>EXCLUSIVE MENU</h3>
+          <hr class="aligncenter" />
+          <p class="text-p">
+            Enjoy our meals. You can click each menu to display more
+            information.
+          </p>
+          <div class="col-md-10 col-md-offset-1">
+            <div id="mi-slider" class="mi-slider">
+              <ul class="move col-lg-12">
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/1.png" alt="img01" />
+                    <h4>Salmon</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/2.png" alt="img02" />
+                    <h4>Seafood Platter</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/3.png" alt="img03" />
+                    <h4>Crawfish</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/4.png" alt="img04" />
+                    <h4>Bouillabaisse</h4>
+                  </a>
+                </li>
+              </ul>
+              <ul class="move col-lg-12">
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/5.png" alt="img01" />
+                    <h4>Salmon</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/6.png" alt="img02" />
+                    <h4>Seafood Platter</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/7.png" alt="img03" />
+                    <h4>Crawfish</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/8.png" alt="img04" />
+                    <h4>Bouillabaisse</h4>
+                  </a>
+                </li>
+              </ul>
+              <ul class="move col-lg-12">
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/9.png" alt="img01" />
+                    <h4>Salmon</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/10.png" alt="img02" />
+                    <h4>Seafood Platter</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/11.png" alt="img03" />
+                    <h4>Crawfish</h4>
+                  </a>
+                </li>
+                <li class="col-xs-6">
+                  <a data-toggle="modal" data-target="#myModal"
+                    ><img src="./img/food/4.png" alt="img04" />
+                    <h4>Bouillabaisse</h4>
+                  </a>
+                </li>
+              </ul>
+              <nav>
+                <a class="active">SeaFood</a>
+                <a>Meat</a>
+                <a>Desserts</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="sep three"></div>
+
+    <div class="phone">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-1">
+            <h3>RESERVE VIA YOUR PHONE</h3>
+            <hr />
+            <p>
+              Contrary to popular belief, Lorem Ipsum is not simply random text.
+              It has roots in a piece of classical Latin literature from 45 BC,
+              making it over 2000 years old.
+            </p>
+            <p>
+              Richard McClintock, a Latin professor at Hampden-Sydney College in
+              Virginia, looked up one of the more obscure Latin words,
+              consectetur, from a Lorem Ipsum passage, and going through the
+              cites of the word in classical literature, discovered the
+              undoubtable source.
+            </p>
+            <p>
+              Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus
+              Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
+              written in 45 BC.
+            </p>
+            <p>
+              <i>
+                <ion-icon name="logo-apple"></ion-icon>
+              </i>
+              <i>
+                <ion-icon name="logo-android"></ion-icon>
+              </i>
+            </p>
+          </div>
+          <div class="col-md-3" style="text-align: center;">
+            <img src="./img/phone.png" width="240" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="newsletter">
+      <div class="container">
+        <div class="row">
+          <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
+          <hr />
+          <p>We will let you know all our awesome offers.</p>
+          <div class="col-md-6 col-md-offset-3 centered">
+            <input
+              type="email"
+              name="email"
+              class="subscribe-input"
+              placeholder="Enter your e-mail address..."
+              required=""
+            />
+            <button class="btn btn-lg subscribe-submit" type="submit">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="us" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-md-offset-2">
+            <h3 class="centered">CONTACT US</h3>
+            <hr />
+            <div class="form-group">
+              <label for="contact-name">Your Name</label>
+              <input
+                type="name"
+                name="name"
+                class="form-control"
+                id="contact-name"
+                placeholder="Your Name"
+                data-rule="minlen:4"
+                data-msg="Please enter at least 4 chars"
+              />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Your Email</label>
+              <input
+                type="email"
+                name="email"
+                class="form-control"
+                id="contact-email"
+                placeholder="Your Email"
+                data-rule="email"
+                data-msg="Please enter a valid email"
+              />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <label for="contact-subject">Subject</label>
+              <input
+                type="text"
+                name="subject"
+                class="form-control"
+                id="contact-subject"
+                placeholder="Subject"
+                data-rule="minlen:4"
+                data-msg="Please enter at least 8 chars of subject"
+              />
+              <div class="validate"></div>
+            </div>
+
+            <div class="form-group">
+              <label for="contact-message">Your Message</label>
+              <textarea
+                class="form-control"
+                name="message"
+                id="contact-message"
+                placeholder="Your Message"
+                rows="5"
+                data-rule="required"
+                data-msg="Please write something for us"
+              ></textarea>
+              <div class="validate"></div>
+            </div>
+
+            <div class="loading"></div>
+            <div class="error-message"></div>
+            <!-- <div class="sent-message">Your message has been sent. Thank you!</div> -->
+
+            <div class="but">
+              <button type="submit" class="btn btn-large">Send Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="./js/dinner.js"></script>
+  </body>
+</html>
