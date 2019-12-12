@@ -733,6 +733,9 @@ img::-moz-selection {
     margin-left: 0px;
     line-height: 1em; 
   }
+  .navigation__item:nth-child(1){
+    display: none;
+  }
 
   .navigation__item a {
     display: inline-block;
