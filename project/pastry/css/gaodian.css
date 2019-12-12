@@ -145,7 +145,7 @@ body {
   z-index: 1;
   height: 750px;
   background-size: 100%;
-  background-image: url(../img/hero_bg_3  .jpg);
+  background-image: url('../img/hero_bg_3.jpg');
 }
 .slider .sliders li.c::before {
   content: '';
@@ -543,14 +543,129 @@ body {
   line-height: 40px;
   letter-spacing: 0.05em;
 }
-.eventsconter {
+#evebtsconter {
   padding: 7em 0;
 }
-.eventsconter .images {
+#evebtsconter .row .images {
   width: 100%;
-  visibility: hidden;
+  overflow: hidden;
 }
-.eventsconter .images img {
+#evebtsconter .row .images img {
   width: 100%;
+}
+#evebtsconter .row .images .texts {
+  color: #999;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  padding: 20px;
+  background: white;
+  margin: 0;
+}
+#evebtsconter .row .images .texts h3 {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin: 0 0 10px;
+}
+#evebtsconter .row .images .texts h3 a {
+  line-height: 1.5;
+  color: #000;
+  font-weight: 500;
+  font-size: 17px;
+  text-decoration: none;
+}
+#evebtsconter .row .images .texts h3 a:hover {
+  color: #FFA33E;
+}
+#evebtsconter .row .images .texts p a {
+  font-size: 14px;
+  position: relative;
+  padding-bottom: 5px;
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+}
+#evebtsconter .row .images .texts p a::after {
+  content: '';
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  position: absolute;
+  bottom: 0;
+}
+#evebtsconter .row .images .texts p a::before {
+  content: '';
+  z-index: 1;
+  display: block;
+  width: 0%;
+  height: 2px;
+  background: #FFA33E;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  transition-property: width;
+  transition-duration: 0.5s;
+}
+#evebtsconter .row .images .texts p a:hover::before {
+  content: '';
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #FFA33E;
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+}
+.chat {
+  padding: 7em 0;
+  background: white;
+}
+.chat .row .letschat .dark {
+  padding: 0;
+  margin: 0;
+}
+.chat .row .letschat .dark h1 {
+  font-family: "Pinyon Script", serif;
+  color: #FFA33E;
+  margin: 0;
+  padding: 0;
+  font-size: 80px;
+  line-height: 1.5;
+  font-weight: 500;
+}
+.chat .row .letschat .dark h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 700;
+  line-height: 40px;
+  position: relative;
+  top: -50px;
+}
+.chat .row .letschat p {
+  margin-bottom: 30px;
+  font-size: 15px;
+  line-height: 24px;
+  color: #8b8e94;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+.chat .row .form p {
+  font-weight: 400;
+  font-family: "Open Sans", Arial, sans-serif;
+  color: #8b8e94;
+  font-size: 15px;
+  line-height: 24px;
+}
+.chat .row .form .form-control {
+  padding: 20px 0;
+}
+.chat .row .form .btn {
+  border: 1px solid #FFA33E;
+  border-radius: 30px;
+  background: #FFA33E;
 }
 /*# sourceMappingURL=./gaodian.css.map */
