@@ -546,8 +546,11 @@ body {
 .eventsconter {
   padding: 7em 0;
 }
-.eventsconter .row .images {
-  width: 33.3333333%;
+.eventsconter .images {
+  width: 100%;
   visibility: hidden;
+}
+.eventsconter .images img {
+  width: 100%;
 }
 /*# sourceMappingURL=./gaodian.css.map */
