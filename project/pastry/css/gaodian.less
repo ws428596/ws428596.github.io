@@ -20,6 +20,7 @@ body {
     .collapse {
         li {
             font-family: "Open Sans", Arial, sans-serif;
+
             a {
                 text-transform: uppercase;
                 font-size: 15px;
@@ -217,9 +218,9 @@ body {
                     color: rgba(255, 255, 255, .7);
                 }
             }
-            
+
         }
-        
+
 
     }
 
@@ -255,48 +256,6 @@ body {
     }
 }
 
-// .direction {
-//     overflow: hidden;
-//     .prev {
-//         display: inline-block;
-//         .flex-prev {
-//             display: block;
-//             width: 30px;
-//             height: 30px;
-//             margin: -60px 0 0;
-//             position: absolute;
-//             top: 55%;
-//             z-index: 10;
-//             overflow: hidden;
-//             background: rgba(0, 0, 0, .8);
-//             border-radius: 0;
-//             padding: 30px;
-//             // &::before{
-//             //     font-family:icomoon;
-//             //     font-weight: 400;
-//             //     line-height: 1;
-//             //     font-variant: normal;
-//             // }
-//         }
-//     }
-
-//     .next {
-//         display: inline-block;
-//         .flex-next {
-//             display: block;
-//             width: 30px;
-//             height: 30px;
-//             margin: -60px 0 0;
-//             position: absolute;
-//             top: 55%;
-//             z-index: 10;
-//             overflow: hidden;
-//             background: rgba(0, 0, 0, .8);
-//             border-radius: 0;
-//             padding: 30px;
-//         }
-//     }
-// }
 
 
 .store {
@@ -712,31 +671,36 @@ body {
             img {
                 width: 100%;
             }
-            .texts{
+
+            .texts {
                 color: #999;
                 font-size: 12px;
                 letter-spacing: .2em;
                 padding: 20px;
                 background: white;
                 margin: 0;
-                h3{
+
+                h3 {
                     margin: 0;
-                    font-family: "Open Sans",Arial,sans-serif;
+                    font-family: "Open Sans", Arial, sans-serif;
                     margin: 0 0 10px;
-                    a{
+
+                    a {
                         line-height: 1.5;
                         color: #000;
                         font-weight: 500;
                         font-size: 17px;
                         text-decoration: none;
-                        &:hover{
+
+                        &:hover {
                             color: #FFA33E;
                         }
                     }
                 }
-                p{
-                    
-                    a{
+
+                p {
+
+                    a {
                         font-size: 14px;
                         position: relative;
                         padding-bottom: 5px;
@@ -745,7 +709,7 @@ body {
                         text-transform: uppercase;
                         color: #000;
 
-                        &::after{
+                        &::after {
                             content: '';
                             z-index: 1;
                             display: block;
@@ -755,7 +719,8 @@ body {
                             position: absolute;
                             bottom: 0;
                         }
-                        &::before{
+
+                        &::before {
                             content: '';
                             z-index: 1;
                             display: block;
@@ -768,7 +733,8 @@ body {
                             transition-property: width;
                             transition-duration: 0.5s;
                         }
-                        &:hover::before{
+
+                        &:hover::before {
                             content: '';
                             z-index: 1;
                             display: block;
@@ -781,21 +747,24 @@ body {
                         }
                     }
                 }
-                
+
             }
         }
     }
 }
-.chat{
+
+.chat {
     padding: 7em 0;
     background: white;
-    .row{
-        .letschat{
-            .dark{
+
+    .row {
+        .letschat {
+            .dark {
                 padding: 0;
                 margin: 0;
-                h1{
-                    font-family: "Pinyon Script",serif;
+
+                h1 {
+                    font-family: "Pinyon Script", serif;
                     color: #FFA33E;
                     margin: 0;
                     padding: 0;
@@ -803,40 +772,91 @@ body {
                     line-height: 1.5;
                     font-weight: 500;
                 }
-                h3{
+
+                h3 {
                     margin: 0;
                     padding: 0;
                     font-size: 50px;
-                    font-family: "Open Sans",Arial,sans-serif;
+                    font-family: "Open Sans", Arial, sans-serif;
                     font-weight: 700;
                     line-height: 40px;
                     position: relative;
                     top: -50px;
                 }
             }
-            p{
+
+            p {
                 margin-bottom: 30px;
                 font-size: 15px;
                 line-height: 24px;
                 color: #8b8e94;
-                font-family: "Open Sans",Arial,sans-serif;
+                font-family: "Open Sans", Arial, sans-serif;
             }
         }
-        .form{
-            p{
+
+        .form {
+            p {
                 font-weight: 400;
-                font-family: "Open Sans",Arial,sans-serif;
+                font-family: "Open Sans", Arial, sans-serif;
                 color: #8b8e94;
                 font-size: 15px;
                 line-height: 24px;
             }
-            .form-control{
+
+            .form-control {
                 padding: 20px 0;
             }
-            .btn{
+
+            .btn {
                 border: 1px solid #FFA33E;
                 border-radius: 30px;
                 background: #FFA33E;
+            }
+        }
+    }
+}
+
+#businesshours {
+    padding: 7em 0;
+    background: #000;
+    color: rgba(255, 255, 255, .7);
+
+    .row {
+        .conterleft {
+            font-size: 15px;
+            line-height: 24px;
+            font-family: "Open Sans", Arial, sans-serif;
+
+            h3 {
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            p {
+                margin-bottom: 30px;
+                padding: 0 0 10px;
+                color: #8b8e94;
+            }
+        }
+
+        .conterright {
+            font-size: 15px;
+            line-height: 24px;
+            font-family: "Open Sans", Arial, sans-serif;
+
+            h3 {
+                font-size: 18px;
+                letter-spacing: 0.2em;
+                text-transform: uppercase;
+                color: #fff;
+            }
+
+            p {
+                margin-bottom: 30px;
+                padding: 0 0 10px;
+                color: #8b8e94;
             }
         }
     }

@@ -668,4 +668,41 @@ body {
   border-radius: 30px;
   background: #FFA33E;
 }
+#businesshours {
+  padding: 7em 0;
+  background: #000;
+  color: rgba(255, 255, 255, 0.7);
+}
+#businesshours .row .conterleft {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+#businesshours .row .conterleft h3 {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+#businesshours .row .conterleft p {
+  margin-bottom: 30px;
+  padding: 0 0 10px;
+  color: #8b8e94;
+}
+#businesshours .row .conterright {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+#businesshours .row .conterright h3 {
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #fff;
+}
+#businesshours .row .conterright p {
+  margin-bottom: 30px;
+  padding: 0 0 10px;
+  color: #8b8e94;
+}
 /*# sourceMappingURL=./gaodian.css.map */
